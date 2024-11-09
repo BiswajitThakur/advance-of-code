@@ -1,0 +1,10 @@
+[package]
+name = "y2023"
+version = "0.1.0"
+edition.workspace = true
+
+[[bin]]
+name = "1"
+path = "./src/bin/day-1.rs"
+
+[dependencies]
