@@ -5,6 +5,10 @@ edition.workspace = true
 
 [[bin]]
 name = "1"
-path = "./src/bin/day-1.rs"
+path = "./src/day-1/main.rs"
+
+[[bin]]
+name = "2"
+path = "./src/day-2/main.rs"
 
 [dependencies]
