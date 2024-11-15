@@ -4,11 +4,15 @@ version = "0.1.0"
 edition.workspace = true
 
 [[bin]]
-name = "1"
+name = "day1"
 path = "./src/day-1/main.rs"
 
 [[bin]]
-name = "2"
+name = "day2"
 path = "./src/day-2/main.rs"
+
+[[bin]]
+name = "day3"
+path = "./src/day-3/main.rs"
 
 [dependencies]
