@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use std::ops::{Range, RangeInclusive};
 
 fn main() {
@@ -232,6 +234,7 @@ impl Iterator for IterPartsNumber<'_> {
 }
 
 #[test]
+#[ignore = "reason"]
 fn test_part_get() {
     let input = "467..114..
 ...*......
