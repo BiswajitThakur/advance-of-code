@@ -1,0 +1,9 @@
+[package]
+name = "y2024"
+version = "0.1.0"
+edition.workspace = true
+
+[[bin]]
+name = "day1"
+path = "./src/day-1/main.rs"
+
