@@ -1,0 +1,1 @@
+./../../../rust/crates/y2024/src/day-1/input.txt
